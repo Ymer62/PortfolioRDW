@@ -2,15 +2,21 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" />
 
-
     <!-- CSS -->
     <link rel="stylesheet" href="css/style.css" />
+
+
+
+    <!-- Iconify  -->
+
+    <script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>
 
     <title>Portfolio R-D-W</title>
 </head>
@@ -64,7 +70,7 @@
             </li>
 
             <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="#sect2" class="nav-link">
                     <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" aria-hidden="true" focusable="false" style="-ms-transform: rotate(360deg); -webkit-transform: rotate(360deg); transform: rotate(360deg);" preserveAspectRatio="xMidYMid meet"
                         viewBox="0 0 24 24">
                          <g class="fa-group">
@@ -233,9 +239,10 @@
 
                     <h1 id='titleInfo'>Information Portfolio</h1>
                     <p>
-                        Bienvenue sur le portfolio de Remy De winne, vous pourrez voir ici mes formations, expériences, hobbies et bien d'autres infos sur moi. Ce portfolio à ete concus par moi-meme et j'ai essayé de mettre quelque uns de mes savoir faire en matiere d'informatique,
-                        car celle-ci est ma passion depuis de nombreuses années.Curieux de nature j'aime savoir le pourquoi du comment, ne me demandé pas de concevoir quelque chose sans que je sache à quoi servira telle ou a qui seras t'elle dédié.Je
-                        pose aussi beaucoup de questions pour etre sur de ne pas me tromper et etre au plus proche des demandes de l'interlocuteur.Voila vous en savez dejas un peu plus sur moi, sur ceux je vous souhaite une bonne navigation. ;-)
+                        Bienvenue sur le portfolio de Remy De winne, vous pourrez voir ici mes formations, experiences, hobbies et bien d'autres infos sur moi. Ce site a ete concus par moi-meme et j'ai essaye de mettre quelques uns de mes savoir faire sans l'aide d'aucun plugin,ni
+                        framework en matiere d'informatique, car celle-ci est ma passion depuis de nombreuses annees.Curieux de nature j'aime savoir le pourquoi du comment, ne me demande pas de concevoir quelque chose sans que je sache a quoi servira
+                        telle ou a qui seras t'elle dedie.Je pose aussi beaucoup de questions pour etre sur de ne pas me tromper et etre au plus proche des demandes de l'interlocuteur.Voila vous en savez dejas un peu plus sur moi, sur ceux je vous souhaite
+                        une bonne navigation. ;-)
                     </p>
 
                 </div>
@@ -244,17 +251,43 @@
         </section>
 
         <section id="sect2">
-            <div id='dessin'>
+
+            <div id="formations">
+                <h1>Formations</h1>
+                <div id="carrousel">
+                    <div class="diplome">
+                        <div class="cercleAnime"></div>
+                        <img src="img/leonard.jpg" alt="Lycée Léonard De Vinci">
+                        <h1 float="left">BEP & BAC</h1>
+                        <p>Industrie des procédés au lycée léonard de vinci a Calais.
+                        </p>
+                    </div>
+                    <div class="diplome">
+                        <div class="cercleAnime"></div>
+                        <img src="img/epsi.jpg" alt="">
+                        <h1>EPSI(En Cours)</h1>
+                        <p>Formation DevOps à Lille.
+                        </p>
+                    </div>
+                    <div class="diplome">
+                        <div class="cercleAnime"></div>
+                        <img src="img/simplon.png" alt="">
+                        <h1>Simplon</h1>
+                        <p>Formation pour le diplôme de Web développeur a boulogne/mer.
+                        </p>
+                    </div>
+                </div>
 
             </div>
+
+
+
         </section>
 
 
 
 
     </main>
-
-    <script src="https://code.jquery.com/jquery-3.5.0.slim.min.js" integrity="sha256-MlusDLJIP1GRgLrOflUQtshyP0TwT/RHXsI1wWGnQhs=" crossorigin="anonymous"></script>
 
     <!--  JS  -->
 
@@ -264,14 +297,10 @@
 
     <script src="js/scroller.js"></script>
 
-    <!-- Iconify  -->
+    <script src="js/carrousel.js" async></script>
 
-    <script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>
 
-    <!-- CDN of P5 -->
-
-    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/p5.js"></script>
-
-    <script src="skecht.js"></script>
 
 </body>
+
+</html>

@@ -1,4 +1,4 @@
-//First essai de scroller Top!bar!!!! 
+//First essai de scroller TopBar!!!! 
 /*
 var reveal = document.getElementById('reveal');
 

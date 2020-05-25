@@ -281,6 +281,106 @@
                 padding-left: 10%;
                 padding-right: 10%;
             }
+            /*  ------------------------------------------------  Formations  ------------------------------------------------------  */
+            
+            #formations {
+                padding-top: 3%;
+                height: 600px;
+                border-top: 10px groove rgb(14, 14, 59);
+                background-color: rgb(11, 7, 27);
+            }
+            
+            #formations h1 {
+                text-align: center;
+                text-decoration: underline;
+            }
+            
+            #carrousel {
+                display: flex;
+                padding: 2%;
+                scroll-snap-type: x mandatory;
+            }
+            
+            .cercleAnime {
+                position: relative;
+                margin-top: -12px;
+                width: 20px;
+                height: 20px;
+                border-radius: 50%;
+                background-color: blue;
+                display: none;
+            }
+            
+            .diplome {
+                background-color: rgb(43, 69, 70);
+                margin: 5%;
+                padding: 1%;
+                border-radius: 5%;
+                height: 200px;
+                width: 25%;
+                box-shadow: 2px 1px rgb(78, 77, 77), -1em 0 0.4em rgb(32, 29, 32);
+            }
+            
+            .diplome:hover {
+                margin: 2%;
+                padding: 1%;
+                width: 35%;
+                height: 300px;
+                border-radius: 2%;
+            }
+            
+            .diplome:hover .cercleAnime {
+                display: block;
+                animation: mymove 3s linear infinite;
+            }
+            
+            @keyframes mymove {
+                0% {
+                    background-color: red;
+                    left: -25px;
+                    top: -10px;
+                }
+                25% {
+                    background-color: yellow;
+                    left: 400px;
+                    top: -10px;
+                }
+                50% {
+                    background-color: blue;
+                    left: 400px;
+                    top: 315px;
+                }
+                75% {
+                    background-color: green;
+                    left: -25px;
+                    top: 315px;
+                }
+                100% {
+                    background-color: red;
+                    left: -25px;
+                    top: -10px;
+                }
+            }
+            
+            .diplome img {
+                float: left;
+                width: 30%;
+                height: 99%;
+                border-radius: 5%;
+                border: 1px solid grey;
+            }
+            
+            .diplome:hover img {
+                height: 95%;
+            }
+            
+            .diplome h1 {
+                text-decoration: underline;
+            }
+            
+            .diplome p {
+                text-align: center;
+            }
             /*  ------------------------------------------------  Parallax  --------------------------------------------------------  */
             
             .parallax {
