@@ -1,15 +1,12 @@
-/*var diplome = document.querySelector('.diplome');
+/*var diplome = document.querySelector('#carrousel');
 
 var xPos = 0;
 
 function animate() {
-    xPos += 10;
+    xPos += 3;
 
     diplome.style.transform = `translate3d(${xPos}px, 0, 0)`;
 
-    /* if (Math.abs(xPos) >= ) {
-         xPos = 0;
-     }
-requestAnimationFrame(animate);
+    requestAnimationFrame(animate);
 }
-animate(); */
+animate();*/
